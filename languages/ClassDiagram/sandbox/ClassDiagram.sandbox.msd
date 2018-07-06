@@ -12,6 +12,7 @@
   <languageVersions>
     <language slang="l:ee56cfd5-5281-4ddb-a365-fdee09c1058a:ActivityDiagram" version="-1" />
     <language slang="l:6c9f1e67-a390-4efa-86be-33801f99c583:ClassDiagram" version="0" />
+    <language slang="l:2b2d246e-ffbf-4847-bca6-374686147652:SequenceDiagram" version="-1" />
     <language slang="l:fa13cc63-c476-4d46-9c96-d53670abe7bc:de.itemis.mps.editor.diagram" version="0" />
     <language slang="l:8ca79d43-eb45-4791-bdd4-0d6130ff895b:de.itemis.mps.editor.diagram.layout" version="0" />
     <language slang="l:21063c66-85ba-4e98-839b-036445b17ae2:de.itemis.mps.editor.layout" version="0" />
