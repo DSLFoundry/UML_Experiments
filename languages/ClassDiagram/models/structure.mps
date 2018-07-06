@@ -58,8 +58,7 @@
   </registry>
   <node concept="1TIwiD" id="6I3V4UgEbXa">
     <property role="EcuMT" value="7747295606185967434" />
-    <property role="TrG5h" value="ClassDiagram" />
-    <property role="19KtqR" value="true" />
+    <property role="TrG5h" value="ClassDiagramCanvas" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6I3V4UgEbXi" role="1TKVEi">
       <property role="IQ2ns" value="7747295606185967442" />
@@ -74,9 +73,6 @@
       <property role="20kJfa" value="Elements" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6I3V4UgEbXg" resolve="IClassElement" />
-    </node>
-    <node concept="PrWs8" id="6I3V4UgEbXb" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="6I3V4UgEbXg">
@@ -330,6 +326,40 @@
     </node>
     <node concept="PrWs8" id="6I3V4UgGo_O" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1g6x6uxxnLm">
+    <property role="EcuMT" value="1442986311245200470" />
+    <property role="TrG5h" value="ClassDiagram" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1g6x6uxxnLp" role="1TKVEi">
+      <property role="IQ2ns" value="1442986311245200473" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Canvas" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6I3V4UgEbXa" resolve="ClassDiagramCanvas" />
+    </node>
+    <node concept="PrWs8" id="1g6x6uxxnLn" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4ADnv6HMmzm">
+    <property role="EcuMT" value="5307876928416999638" />
+    <property role="TrG5h" value="Package" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4ADnv6HMm$b" role="1TKVEi">
+      <property role="IQ2ns" value="5307876928416999691" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Canvas" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="6I3V4UgEbXa" resolve="ClassDiagramCanvas" />
+    </node>
+    <node concept="PrWs8" id="4ADnv6HMm$9" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="4ADnv6HMKlO" role="PzmwI">
+      <ref role="PrY4T" node="6I3V4UgEbXg" resolve="IClassElement" />
     </node>
   </node>
 </model>

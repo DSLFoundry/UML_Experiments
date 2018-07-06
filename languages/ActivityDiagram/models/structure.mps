@@ -12,6 +12,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
@@ -261,6 +262,52 @@
     </node>
     <node concept="PrWs8" id="2isZIDxwkad" role="PzmwI">
       <ref role="PrY4T" node="4j1m7I$vpGe" resolve="IActivity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1RFUIzKmqdw">
+    <property role="EcuMT" value="2156075132812632928" />
+    <property role="3GE5qa" value="activities.wip" />
+    <property role="TrG5h" value="WhileActivity" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1RFUIzKocrY" role="1TKVEi">
+      <property role="IQ2ns" value="2156075132813100798" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2isZIDxtSo4" resolve="ICondition" />
+    </node>
+    <node concept="1TJgyj" id="1g6x6uxwd6S" role="1TKVEi">
+      <property role="IQ2ns" value="1442986311244894648" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="anchor" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1g6x6uxw66A" resolve="WhileAnchor" />
+    </node>
+    <node concept="1TJgyj" id="1g6x6uxwf7P" role="1TKVEi">
+      <property role="IQ2ns" value="1442986311244902901" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="loopback_id" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1RFUIzKprZ4" resolve="IdNode" />
+    </node>
+    <node concept="PrWs8" id="1RFUIzKn93X" role="PzmwI">
+      <ref role="PrY4T" node="4j1m7I$vpGe" resolve="IActivity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1RFUIzKprZ4">
+    <property role="EcuMT" value="2156075132813426628" />
+    <property role="TrG5h" value="IdNode" />
+    <property role="R4oN_" value="Node just used for its ID" />
+    <property role="3GE5qa" value="infra" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="1g6x6uxw66A">
+    <property role="EcuMT" value="1442986311244865958" />
+    <property role="3GE5qa" value="activities.wip" />
+    <property role="TrG5h" value="WhileAnchor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="1g6x6uxw66B" role="PzmwI">
+      <ref role="PrY4T" node="4j1m7I$wph_" resolve="INextActivity" />
     </node>
   </node>
 </model>
